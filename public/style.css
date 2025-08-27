@@ -1,0 +1,15 @@
+.bg-background{
+ background-image: url(/img2.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ height: 100vh;
+;
+}
+
+.title{
+   font-weight: 400;
+   font-style: oblique;
+   margin-top: 30vh;
+    color: rgb(235, 234, 230)
+}

@@ -55,18 +55,18 @@
 <section>
   <div class="container">
     <div class="row justify-content-center align-items-center mt-5 h-100">
-       @foreach($users as $user)
+       <?php $__currentLoopData = $users; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $user): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
           <div class="col-12 col-md-4">
             <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">{{$user['name']}} {{$user['surname']}}</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">{{$user['role']}}</h6>
+    <h5 class="card-title"><?php echo e($user['name']); ?> <?php echo e($user['surname']); ?></h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary"><?php echo e($user['role']); ?></h6>
     
-    <a href="{{Route('chiSiamoDetail', ['name'=>$user['name']] )}}" class="card-link">Leggi di più</a>
+    <a href="<?php echo e(Route('chiSiamoDetail', ['name'=>$user['name']] )); ?>" class="card-link">Leggi di più</a>
   </div>
 </div>
           </div>
-       @endforeach
+       <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
     </div>
   </div>
 </section>
@@ -74,4 +74,4 @@
     <script src="https://kit.fontawesome.com/44c507059e.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>
-</html>
+</html><?php /**PATH C:\Users\adria\laravel_02_Adriana_Ambruosi\resources\views/chiSiamo.blade.php ENDPATH**/ ?>

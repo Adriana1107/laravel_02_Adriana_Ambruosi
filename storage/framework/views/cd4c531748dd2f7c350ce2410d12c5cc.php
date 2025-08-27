@@ -21,10 +21,10 @@
           <a class="nav-link active" aria-current="page" href="/">Homepage</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/chi-siamo">Chi siamo</a>
+          <a class="nav-link" href="/chi-siamo">chi siamo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/ricette">Ricette</a>
+          <a class="nav-link" href="/ricette">ricette</a>
         </li>
        
       </ul>
@@ -45,4 +45,4 @@
      <script src="https://kit.fontawesome.com/44c507059e.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>
-</html>
+</html><?php /**PATH C:\Users\adria\laravel_02_Adriana_Ambruosi\resources\views/welcome.blade.php ENDPATH**/ ?>
